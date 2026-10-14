@@ -7,8 +7,8 @@ module.exports = function (config) {
   config.set({
     basePath: "",
     frameworks: ["jasmine", "webpack"],
-    files: [{ pattern: "tests/cargar-pruebas.js", watched: false }],
-    preprocessors: { "tests/cargar-pruebas.js": ["webpack"] },
+    files: [{ pattern: "tests/cargar-pruebas.cjs", watched: false }],
+    preprocessors: { "tests/cargar-pruebas.cjs": ["webpack"] },
     webpack: {
       mode: "development",
       devtool: false,
