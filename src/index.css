@@ -1,0 +1,48 @@
+/* Tema de la clínica sobre Bootstrap: verde pino (primario) y ámbar (acento). */
+:root {
+  --bs-primary: #1b4d45;
+  --bs-primary-rgb: 27, 77, 69;
+  --bs-link-color: #1b4d45;
+  --bs-link-color-rgb: 27, 77, 69;
+  --bs-link-hover-color: #0f2f2a;
+  --bs-body-bg: #f6f9f8;
+  --bs-body-color: #24312e;
+  --bs-body-font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-weight: 600;
+}
+
+.btn-primary {
+  --bs-btn-bg: #1b4d45;
+  --bs-btn-border-color: #1b4d45;
+  --bs-btn-hover-bg: #15403a;
+  --bs-btn-hover-border-color: #15403a;
+  --bs-btn-active-bg: #0f2f2a;
+  --bs-btn-active-border-color: #0f2f2a;
+  --bs-btn-disabled-bg: #1b4d45;
+  --bs-btn-disabled-border-color: #1b4d45;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #1b4d45;
+  --bs-btn-border-color: #1b4d45;
+  --bs-btn-hover-bg: #1b4d45;
+  --bs-btn-hover-border-color: #1b4d45;
+  --bs-btn-active-bg: #1b4d45;
+  --bs-btn-active-border-color: #1b4d45;
+}
+
+.text-bg-primary { background-color: #1b4d45 !important; }
+
+.barra-clinica { background-color: #1b4d45; border-bottom: 4px solid #e2a63b; }
+.barra-clinica .nav-link.active { color: #fff; font-weight: 600; text-decoration: underline; text-underline-offset: 6px; }
+
+.pie-clinica { background-color: #0f2f2a; color: #d5e4e0; }
+.pie-clinica a { color: #f3c969; }
+
+.tarjeta-servicio { border-color: #d5e4e0; }
+
+:focus-visible { outline: 3px solid #e2a63b; outline-offset: 2px; }
