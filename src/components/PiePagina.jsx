@@ -10,7 +10,6 @@ function PiePagina() {
         <address className="mb-1">
           {CLINICA.horario} · <a href={`mailto:${CLINICA.email}`}>{CLINICA.email}</a>
         </address>
-        <small>Proyecto académico · DSY1104 Desarrollo FullStack II</small>
       </div>
     </footer>
   );

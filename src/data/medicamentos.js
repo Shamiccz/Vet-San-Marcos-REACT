@@ -1,4 +1,4 @@
-// Medicamentos y vacunas en stock (fuente: catálogo Excel Forma A).
+// Medicamentos y vacunas en stock
 export const MEDICAMENTOS = [
   {
     "id": "ME001",

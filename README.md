@@ -11,7 +11,7 @@ npm test           # pruebas Jasmine/Karma (requiere Google Chrome) + reporte de
 npm run build      # versión de producción
 ```
 
-El reporte de cobertura queda en `coverage/index.html` (úsalo para el documento de cobertura de testing). Si Chrome no está en la ruta habitual, define `CHROME_BIN`.
+El reporte de cobertura queda en `coverage/index.html`.
 
 El logo está en `public/logo.svg` (también es el favicon). Se muestra en la barra de navegación, el login y el registro.
 

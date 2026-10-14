@@ -1,4 +1,4 @@
-// Catálogo de servicios de la clínica (fuente: catálogo Excel Forma A). Duración en minutos.
+// Catálogo de servicios de la clínica. Duración en minutos.
 export const SERVICIOS = [
   {
     "id": "SV001",

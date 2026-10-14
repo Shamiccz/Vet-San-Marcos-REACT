@@ -1,4 +1,4 @@
-// Datos de contacto y ubicación. La dirección es referencial: reemplázala por la real.
+// Datos de contacto y ubicación.
 export const CLINICA = {
   nombre: "Veterinaria San Marcos",
   direccion: "Av. Libertador Bernardo O'Higgins 1234, Rancagua",
